@@ -1,6 +1,6 @@
 {
-  "name": "react-native-phone-number-input",
-  "version": "2.0.1",
+  "name": "@vonrosen/react-native-phone-number-input",
+  "version": "2.0.4",
   "description": "Phone Number Input Component",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/garganurag893/react-native-phone-number-input.git"
+    "url": "git+https://github.com/vonrosen/react-native-phone-number-input.git"
   },
-  "author": "anuraggarg",
+  "author": "vonrosen",
   "license": "MIT",
   "peerDependencies": {
     "react": "*",
@@ -32,9 +32,13 @@
   ],
   "dependencies": {
     "google-libphonenumber": "^3.2.10",
-    "react-native-country-picker-modal": "^2.0.0"
+    "react-native-country-picker-modal": "^2.0.0",
+    "react-native-text-input-mask": "3.1.4"
   },
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.61.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/vonrosen"
   }
 }
